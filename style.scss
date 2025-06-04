@@ -1,0 +1,49 @@
+.container {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.header {
+    background: url(/img/Artboard\ 1\ 1.png) no-repeat center/cover;
+    padding-top: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+        display: flex;
+        align-items: center;
+        &_text{
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 111%;
+            letter-spacing: 0.04em;
+            color: #fff
+        }
+        &_img {
+            height: 30px;
+            width: 40px;
+        }
+    }
+    &-center {
+        &_lit {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 40px;
+            list-style: none;
+        }
+        &-list{
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 111%;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+             color: #fff;
+        }
+    }
+}
+.main{
+    display: flex;
+   justify-content: flex-start;
+}
